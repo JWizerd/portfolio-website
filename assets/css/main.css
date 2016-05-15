@@ -4,7 +4,7 @@
 *	1.0 - MEYERS RESET FILE
 *	2.0 - TYPOGRAPHY
 *	3.0 - GENERAL
-*	4.0 - HEADER 
+*	4.0 - HEADER
 * 5.0 - PORTFOLIO SECTION / MAIN CONTENT
 *	6.0 - FOOTER
 * 7.0 - MEDIA
@@ -12,16 +12,15 @@
 *
 *
 */
-	
+
 /****************************
-1.0 MEYER'S RESET	
+1.0 MEYER'S RESET
 ****************************/
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-
 	html, body, div, span, applet, object, iframe,
 	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 	a, abbr, acronym, address, big, cite, code,
@@ -31,8 +30,8 @@
 	dl, dt, dd, ol, ul, li,
 	fieldset, form, label, legend,
 	table, caption, tbody, tfoot, thead, tr, th, td,
-	article, aside, canvas, details, embed, 
-	figure, figcaption, footer, header, hgroup, 
+	article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup,
 	menu, nav, output, ruby, section, summary,
 	time, mark, audio, video {
 		margin: 0;
@@ -43,7 +42,7 @@
 		vertical-align: baseline;
 	}
 	/* HTML5 display-role reset for older browsers */
-	article, aside, details, figcaption, figure, 
+	article, aside, details, figcaption, figure,
 	footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -66,7 +65,7 @@
 		border-spacing: 0;
 	}
 /****************************
-2.0 TYPOGRAPHY	
+2.0 TYPOGRAPHY
 ****************************/
 	*{
 		font-family: "Roboto", sans-serif;
@@ -74,7 +73,7 @@
 	h1{
 		font-size: 40px;
 		margin: 10px 0;
-		
+
 	}
 	h2{
 		font-size: 35px;
@@ -85,7 +84,7 @@
 		margin: 5px 0;
 	}
 /****************************
-3.0 GENERAL	
+3.0 GENERAL
 ****************************/
 	section{
 		font-family: "Roboto", sans-serif;
@@ -138,10 +137,10 @@
 	.header-content h1{
 		margin-top: 15px;
 		font-size: 52px;
-		color: #fcfcfc; 
+		color: #fcfcfc;
 	}
 	.header-content p{
-		color: #fcfcfc; 
+		color: #fcfcfc;
 		font-size: 25px;
 	}
 	.header-content span{
@@ -157,9 +156,8 @@
 	.header ul li i:hover{
 		color: #333;
 	}
-	
 /****************************
-5.0 PORTFOLIO SECTION / MAIN CONTENT	
+5.0 PORTFOLIO SECTION / MAIN CONTENT
 ****************************/
 	#portfolio ul{
 		display: flex;
@@ -194,7 +192,6 @@
     border-bottom: 1px solid;
     margin-bottom: 10px;
 	}
-	
 /****************************
 6.0 FOOTER
 ****************************/
